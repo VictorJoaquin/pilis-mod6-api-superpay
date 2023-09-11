@@ -10,13 +10,16 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-navigation/bottom-tabs": "^6.3.2",
-    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.7.0",
     "date-fns": "^2.29.1",
     "expo": "^49.0.0",
+    "expo-file-system": "~15.4.3",
     "expo-image-picker": "~14.3.2",
+    "expo-media-library": "~15.4.1",
     "expo-status-bar": "~1.6.0",
     "expo-updates": "~0.18.12",
     "moment": "^2.29.4",
@@ -41,9 +44,7 @@
     "react-redux": "^8.0.2",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
-    "expo-file-system": "~15.4.3",
-    "expo-media-library": "~15.4.1",
-    "@expo/webpack-config": "^19.0.0"
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
